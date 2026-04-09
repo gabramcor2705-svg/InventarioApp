@@ -1,0 +1,92 @@
+Prompt 1:
+"Generar clase Producto en Java con encapsulamiento (id, nombre, cantidad, precio) usando buenas practicas"
+Resultado:
+Se genero la clase Producto con atributos privados, constructor, getters y setters.
+Que ayudo:
+Capa de Entidades
+Mejora:
+Agregar validaciones en setters (cantidad y precio no negativos)
+
+Prompt 2:
+"Crear interfaz ProductoDAO en Java con metodos CRUD (guardar, listar, buscarPorId, actualizar, eliminar)"
+Resultado:
+Se genero una interfaz con metodos definidos para operaciones CRUD.
+Que ayudo:
+Capa de Acceso a Datos (DAO)
+Mejora:
+Incluir manejo de excepciones en la interfaz
+
+Prompt 3:
+"Implementar ProductoDAO usando archivos .txt en Java, simulando base de datos sin redundancia"
+Resultado:
+Se creo una clase que guarda, lee y actualiza productos en archivo de texto.
+Que ayudo:
+Persistencia en archivos .txt
+Mejora:
+Optimizar lectura y escritura para evitar duplicados
+
+Prompt 4:
+"Crear clase ProductoService que use ProductoDAO para logica de negocio sin acceder directamente a datos"
+Resultado:
+Se genero una clase intermedia que maneja reglas de negocio y usa DAO.
+Que ayudo:
+Capa de Logica de Negocio
+Mejora:
+Agregar validaciones antes de guardar o actualizar productos
+
+Prompt 5:
+"Crear menu en consola en Java para gestionar inventario (CRUD de productos)"
+Resultado:
+Se genero un menu con opciones para registrar, listar, buscar, actualizar y eliminar.
+Que ayudo:
+Capa de Presentacion
+Mejora:
+Validar entradas del usuario y manejar errores
+
+Prompt 6:
+"Explicar como implementar arquitectura por capas en un sistema de inventario en Java"
+Resultado:
+Se describieron las capas: Entidades, DAO, Logica y Presentacion.
+Que ayudo:
+Manual Tecnico
+Mejora:
+Incluir flujo de datos entre capas
+
+Prompt 7:
+"Generar ejemplo de manual de usuario para sistema de inventario en consola"
+Resultado:
+Se creo una guia con instrucciones de uso, menu y ejemplos.
+Que ayudo:
+Manual de Usuario
+Mejora:
+Hacerlo mas claro y estructurado
+
+Prompt 8:
+"Generar diagrama de clases UML para sistema de inventario con capas separadas"
+Resultado:
+Se definieron clases: Producto, ProductoDAO, ProductoService y Main.
+Que ayudo:
+Diagrama UML
+Mejora:
+Incluir relaciones entre clases e interfaces
+
+Prompt 9:
+"Generar archivo CHANGELOG.md con versiones v1.0, v1.1 y v1.2 para sistema de inventario"
+Resultado:
+Se creo historial de cambios con estructura correcta.
+Que ayudo:
+Control de versiones
+Mejora:
+Agregar descripciones mas detalladas
+
+Prompt 10:
+"Recomendar mensajes de commit claros para proyecto de inventario en Git"
+Resultado:
+Se generaron commits como:
+- feat: registro de productos
+- fix: validaciones
+- refactor: separacion de capas
+Que ayudo:
+Buenas practicas en Git
+Mejora:
+Ajustar commits a cambios reales del proyecto
